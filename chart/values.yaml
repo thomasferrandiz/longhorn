@@ -8,23 +8,23 @@ global:
 image:
   longhorn:
     engine:
-      repository: longhornio/longhorn-engine
-      tag: master-head
+      repository: thomasferrandiz/longhornonz-longhorn-engine
+      tag: v1.2.4-s390x-rc4-s390x
     manager:
-      repository: longhornio/longhorn-manager
-      tag: master-head
+      repository: thomasferrandiz/longhornonz-longhorn-manager
+      tag: v1.3.0-dev-s390x-rc1-s390x
     ui:
-      repository: longhornio/longhorn-ui
-      tag: master-head
+      repository: thomasferrandiz/longhornonz-longhorn-ui
+      tag: v1.2.4-s390x-rc0-s390x
     instanceManager:
-      repository: longhornio/longhorn-instance-manager
-      tag: v1_20220303
+      repository: thomasferrandiz/longhornonz-longhorn-instance-manager
+      tag: v1_20220324-rc3-s390x
     shareManager:
-      repository: longhornio/longhorn-share-manager
-      tag: v1_20211020
+      repository: thomasferrandiz/longhornonz-longhorn-share-manager
+      tag: v1_20211020-s390x-rc1-s390x
     backingImageManager:
-      repository: longhornio/backing-image-manager
-      tag: v3_20220318
+      repository: thomasferrandiz/longhornonz-backing-image-manager
+      tag: v3_20220324-rc3-s390x
   csi:
     attacher:
       repository: longhornio/csi-attacher
