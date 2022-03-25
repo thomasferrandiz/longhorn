@@ -27,20 +27,20 @@ image:
       tag: v3_20220324-rc3-s390x
   csi:
     attacher:
-      repository: longhornio/csi-attacher
-      tag: v3.2.1
+      repository: rancher/mirrored-longhornio-csi-attacher
+      tag: v3.2.1-s390x
     provisioner:
-      repository: longhornio/csi-provisioner
-      tag: v2.1.2
+      repository: rancher/mirrored-longhornio-csi-provisioner
+      tag: v2.1.2-s390x
     nodeDriverRegistrar:
-      repository: longhornio/csi-node-driver-registrar
-      tag: v2.3.0
+      repository: rancher/mirrored-longhornio-csi-node-driver-registrar
+      tag: v2.3.0-s390x
     resizer:
-      repository: longhornio/csi-resizer
-      tag: v1.2.0
+      repository: rancher/mirrored-longhornio-csi-resizer
+      tag: v1.2.0-s390x
     snapshotter:
-      repository: longhornio/csi-snapshotter
-      tag: v3.0.3
+      repository: rancher/mirrored-longhornio-csi-snapshotter
+      tag: v3.0.3-s390x
   pullPolicy: IfNotPresent
 
 service:
